@@ -39,6 +39,8 @@ conky.config = {
 };
 
 conky.text = [[
-${offset 1150}${exec (cat /tmp/moon.tmp)}
-${offset 1150}${exec (cat /tmp/weather.tmp)}
+${offset 1150}${exec (cat ~/.local/conky_configs/tmp/moon.tmp)}
+#########
+#Feel free to space these out or, you can change the links within weatherpull.sh
+${offset 1150}${exec (cat ~/.local/conky_configs/tmp/weather.tmp)}
 ]];
