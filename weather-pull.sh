@@ -1,9 +1,10 @@
 #/bin/bash
-function weather-pull {
-	while true 
-	do
-		curl "http://wttr.in/?1ATF" --silent --max-time 3 > /tmp/weather.tmp
-		sleep 600	
-	done
-}
-weather-pull
+while [ 1 ]
+do
+		touch ~/.local/conky_configs/tmp/moon.tmp ~/.local/conky_configs/tmp/weather.tmp ~/.local/conky_configs/tmp/sun.tmp
+		#weather data
+		curl "http://wttr.in/?1ATF" --silent --max-time 3 > ~/.local/conky_configs/tmp/weather.tmp
+		#moon data
+		curl "http://wttr.in/moon?Q0ATF" --silent --max-time 3 > ~/.local/conky_configs/tmp/moon.tmp
+		sleep 600
+done
