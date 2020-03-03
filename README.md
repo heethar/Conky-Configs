@@ -7,6 +7,6 @@ Of course, you need to install conky to run these things.
 My weather API is wttr.in, you can provide yourself with your own wttr configuration links here https://wttr.in/:help  
 
 **Start configuration files**  
-Make sure you have `~/.local/conky_configs/tmp/`  
+Make sure you have a directory titled `~/.local/conky_configs/tmp/`  
 I currently have everything configured assumming you have all config files also located in `~/.local/conky_config/`  
 If you do not, I highly suggest changing it to the correct locations within this code.
