@@ -8,7 +8,7 @@ My weather API is wttr.in, you can provide yourself with your own wttr configura
 
 **Start configuration files**  
 Make sure you have a directory titled `~/.local/conky_configs/tmp/`  
-I currently have everything configured assumming you have all Conky config files also located in `~/.local/conky_config/`
+Assumming you have all Conky config files also located in `~/.local/conky_config/`
 
 After you have your config files in order, you can start a process to begin the 2 .sh scripts at startup. 
 
