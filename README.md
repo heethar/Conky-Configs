@@ -10,9 +10,9 @@ All colors have been altered to fit this desktop background provided in this rep
 My weather API is wttr.in, you can provide yourself with your own wttr configuration links here https://wttr.in/:help  
 
 **Start configuration files**  
-Make sure you have a directory titled `~/.local/conky_configs/tmp/`  
-Assumming you have all Conky config files also located in `~/.local/conky_config/`
+Make sure you have a directory titled `~/.config/conky/tmp/`  
+Assumming you have all Conky config files also located in `~/.config/conky`
 
-After you have your config files in order, you can start a process to begin the 2 .sh scripts at startup. 
+After you have your config files in order, you can start a process to begin the 2 .sh scripts at startup. If you're running X, you can add them to `~/.xinitrc`
 
 Here is a link to Conky variables: http://conky.sourceforge.net/variables.html
