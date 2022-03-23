@@ -10,6 +10,7 @@ https://wiki.archlinux.org/title/Conky
 All colors have been altered to fit this desktop background provided in this repository> (1581207832610.png)  
  
 My weather API is wttr.in, you can provide yourself with your own wttr configuration links here https://wttr.in/:help but you will need to alter the link in `weather-pull.sh` to your location. Otherwise, if you `cat http://wttr.in`, wttr will default to using your current geolocation data.   
+It is highly suggested to configure your link, because wttr will concatenate color configurations and etc. as UTF characters - which looks terrible.
 
 **Start configuration files**  
 Make sure you have a directory titled `~/.config/conky/tmp/`  
