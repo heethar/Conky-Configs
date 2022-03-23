@@ -14,7 +14,7 @@ My weather API is wttr.in, you can provide yourself with your own wttr configura
 Make sure you have a directory titled `~/.config/conky/tmp/`  
 Assumming you have all Conky config files also located in `~/.config/conky`
 
-**Auto-Start Conky on login**
+**Auto-Start Conky on login**  
 If you have a directory in `/home/%USER%/.config` named `autostart`, you can place the `.sh` scripts in that directory, only replace `.sh` with `.desktop`.
 
 Here is a link to Conky variables: http://conky.sourceforge.net/variables.html
