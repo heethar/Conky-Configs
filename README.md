@@ -17,18 +17,18 @@ Assumming you have all Conky config files also located in `~/.config/conky`
 
 **Auto-Start Conky on login**  
 If you have a directory in `~/.config` named `autostart`, you can create a file with its name ending in .desktop using these parameters:  
-`[Desktop Entry]  
-    Encoding=UTF-8  
-    Version=0.9.4  
-    Type=Application  
-    Name=Conky Conf  
-    Comment=Conky.conf  
-    Exec=~/.config/conky/start-conky.sh  
-    OnlyShowIn=XFCE;  
-    RunHook=0  
-    StartupNotify=false  
-    Terminal=false  
-    Hidden=false`  
+`[Desktop Entry]`  
+`Encoding=UTF-8`  
+`Version=0.9.4`  
+`Type=Application`  
+`Name=Conky Conf`  
+`Comment=Conky.conf`  
+`Exec=~/.config/conky/start-conky.sh`  
+`OnlyShowIn=XFCE;`  
+`RunHook=0`  
+`StartupNotify=false`  
+`Terminal=false`  
+`Hidden=false`  
 
 You can change the name and comment to whatever you desire.
 
