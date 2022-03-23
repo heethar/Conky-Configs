@@ -31,7 +31,7 @@ If you have a directory in `~/.config` named `autostart`, you can create a file 
 `Terminal=false`  
 `Hidden=false`  
 
-Make another .desktop file for weather-pull.sh in the same directory.  
+Make another .desktop file for weather-pull.sh in the same directory using the same parameters, only change `Exec=` from `start-conky.sh` to `weather-pull.sh`.  
 You can change the name and comment to whatever you desire.
 
 Here is a link to Conky variables: http://conky.sourceforge.net/variables.html
