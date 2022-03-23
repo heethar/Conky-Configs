@@ -29,7 +29,7 @@ RunHook=0
 StartupNotify=false  
 Terminal=false  
 Hidden=false`  
-  
+
 You can change the name and comment to whatever you desire.
 
 Here is a link to Conky variables: http://conky.sourceforge.net/variables.html
