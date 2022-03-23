@@ -1,7 +1,8 @@
 # Conky-Configs
 **Just some configurations for Conky**
 
-Of course, you need to install conky to run these things. 
+Of course, you need to install conky to run these things.  
+If you're on Arch Linux, you can pass `sudo pacman -S conky`  
 Even if you are not running Arch Linux, this is still a very helpful guide on how to configure Conky on various display configurations. 
 
 https://wiki.archlinux.org/title/Conky
